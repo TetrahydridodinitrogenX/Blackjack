@@ -7,7 +7,6 @@ cards[10] = "10";
 cards[11] = "10";
 cards[12] = "10";
 
-
 Start:
 // Init Screen
 Console.Write("\n \n \n \n \n \n \n \n \n \n \t \t \t \t \t \t ");
