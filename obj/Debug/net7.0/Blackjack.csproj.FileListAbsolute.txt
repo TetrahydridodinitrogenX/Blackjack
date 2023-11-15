@@ -20,3 +20,10 @@ C:/Users/andre/Documents/GitHub/Blackjack/obj/Debug/net7.0/ref/Blackjack.dll
 /workspaces/Blackjack/obj/Debug/net7.0/Blackjack.dll
 /workspaces/Blackjack/obj/Debug/net7.0/refint/Blackjack.dll
 /workspaces/Blackjack/obj/Debug/net7.0/Blackjack.pdb
+/workspaces/Blackjack/bin/Debug/net7.0/Blackjack
+/workspaces/Blackjack/bin/Debug/net7.0/Blackjack.deps.json
+/workspaces/Blackjack/bin/Debug/net7.0/Blackjack.runtimeconfig.json
+/workspaces/Blackjack/bin/Debug/net7.0/Blackjack.dll
+/workspaces/Blackjack/bin/Debug/net7.0/Blackjack.pdb
+/workspaces/Blackjack/obj/Debug/net7.0/Blackjack.genruntimeconfig.cache
+/workspaces/Blackjack/obj/Debug/net7.0/ref/Blackjack.dll
