@@ -2,6 +2,8 @@
 int globalTextDelay = 50;
 int textSpacing = 2;
 // int chips = 0;
+
+// Data & Constants
 string[] cards = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
 cards[10] = "10";
 cards[11] = "10";
@@ -59,7 +61,6 @@ for(int i = 0; i < textSpacing; i++){Console.WriteLine("");}
     }
 
 Hit:
-
     for(int i = 0; i < textSpacing; i++){Console.WriteLine("");}
         Console.WriteLine("You Hit!"); Console.WriteLine("");
     Random randSnd = new Random();
@@ -71,7 +72,7 @@ Hit:
     
     if(playerCardTotal == 21){
         for(int i = 0; i < textSpacing; i++){Console.WriteLine("");}
-        
+
     }
 
 CONT:
