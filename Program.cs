@@ -40,9 +40,35 @@ Console.WriteLine("Your Card: " + playerCardOne);
 Console.WriteLine("Dealers Card: " + dealerCardOne);
     await Task.Delay(100);
 
+Choice:
 Console.WriteLine("");
 Console.WriteLine("1: Hit | 2: Stand");
 int choiceSelect = Convert.ToInt32(Console.ReadLine());
 for(int i = 0; i < textSpacing; i++){Console.WriteLine("");}
 
+    if(choiceSelect == 1){ // HIT
+        for(int i = 0; i < textSpacing; i++){Console.WriteLine("");}
+            Console.WriteLine("You Hit!"); Console.WriteLine("");
+        Random randSnd = new Random();
+            int playerCardTwoRand = rand.Next(1, 13);
+            int playerCardTwo = int.Parse(cards[playerCardTwoRand]);
+        Console.WriteLine("Your Second Card: " + playerCardTwo);
+            int playerCardTotal = playerCardOne + playerCardTwo;
+        Console.WriteLine("Your Total = " + playerCardTotal);
+    } else if(choiceSelect == 2){ // STAND
+        for(int i = 0; i < textSpacing; i++){Console.WriteLine("");}
+            Console.WriteLine("You Stand!");
+        goto CONT;
+    } else if(choiceSelect != 1 && choiceSelect != 2){
+        for(int i = 0; i < textSpacing; i++){Console.WriteLine("");}
+            Console.WriteLine("Invalid!");
+        goto Choice;
+    }
+
+CONT:
+if(playerCardTotal == 21){
+    
+}
+
 Console.Read();
+// ADD BLACKJACK FEATURE DOWN HERE
